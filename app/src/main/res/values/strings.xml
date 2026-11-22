@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Zgłoszenie usterki</string>
+
+    <string name="header_form">Zgłoszenie usterki</string>
+    <string name="category_label">Kategoria usterki</string>
+    <string name="description_hint">Opisz dokładnie problem</string>
+    <string name="priority_label">Priorytet zgłoszenia</string>
+
+    <string name="priority_low">Niski</string>
+    <string name="priority_medium">Średni</string>
+    <string name="priority_high">Wysoki</string>
+
+    <string name="next">Przejdź do podglądu</string>
+    <string name="about">O aplikacji</string>
+
+    <string name="validation_category">Wybierz kategorię usterki.</string>
+    <string name="validation_description">Opisz usterkę.</string>
+    <string name="form_correct">Formularz jest poprawny.</string>
+
+    <string-array name="categories">
+        <item>-- wybierz kategorię --</item>
+        <item>Sprzęt komputerowy</item>
+        <item>Oprogramowanie</item>
+        <item>Sieć internetowa</item>
+        <item>Drukarka</item>
+        <item>Inna</item>
+    </string-array>
+</resources>
