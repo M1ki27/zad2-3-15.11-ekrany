@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.btnNext)
                 .setOnClickListener(v -> validateForm());
+
+        findViewById(R.id.btnAbout)
+                .setOnClickListener(v -> openAbout());
     }
 
     private void setupCategorySpinner() {
@@ -203,6 +206,15 @@ public class MainActivity extends AppCompatActivity {
         );
 
         summaryLauncher.launch(intent);
+    }
+
+    private void openAbout() {
+        Intent intent = new Intent(
+                this,
+                AboutActivity.class
+        );
+
+        startActivity(intent);
     }
 
     @Override

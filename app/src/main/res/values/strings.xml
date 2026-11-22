@@ -3,7 +3,6 @@
     <string name="app_name">Zgłoszenie usterki</string>
 
     <string name="header_form">Zgłoszenie usterki</string>
-
     <string name="category_label">Kategoria usterki</string>
 
     <string name="description_hint">
@@ -32,6 +31,18 @@
 
     <string name="about">
         O aplikacji
+    </string>
+
+    <string name="about_title">
+        O aplikacji
+    </string>
+
+    <string name="about_text">
+        Aplikacja służy do zgłaszania usterek w pracowni komputerowej.\n\n
+        Użytkownik podaje kategorię, opis, lokalizację i priorytet usterki.\n\n
+        Aplikacja demonstruje działanie trzech ekranów, intencji jawnych,
+        przekazywania danych przez putExtra oraz zwracania wyniku przez
+        ActivityResultLauncher.
     </string>
 
     <string name="summary_header">
@@ -65,8 +76,12 @@
         Wybierz priorytet zgłoszenia.
     </string>
 
-    <string name="form_correct">
-        Formularz jest poprawny.
+    <string name="registered">
+        Zgłoszenie przyjęte. Numer: %1$s
+    </string>
+
+    <string name="cancelled">
+        Zgłoszenie nie zostało potwierdzone.
     </string>
 
     <string name="summary_format">
@@ -75,14 +90,6 @@
         Priorytet: %3$s\n
         Opis: %4$s\n
         Blokuje pracę: %5$s
-    </string>
-
-    <string name="registered">
-        Zgłoszenie przyjęte. Numer: %1$s
-    </string>
-
-    <string name="cancelled">
-        Zgłoszenie nie zostało potwierdzone.
     </string>
 
     <string-array name="categories">
